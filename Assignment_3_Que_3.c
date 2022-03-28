@@ -14,6 +14,7 @@ void* proc(void* param)
 
 int main()
 {
+	printf("ALL IZZ WELL\nSECOND CHANGE\n");
 	pthread_attr_t Attr;
 	pthread_t id;
 	void *stk;
